@@ -1,0 +1,140 @@
+footer {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-evenly;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* max-width: 100%; */
+  background-color: #f5f5f5;
+  color: grey;
+  /* text-align: center; */
+  padding-right: 40px;
+  padding-left: 55px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  /* border: 1px solid red; */
+}
+
+footer .menu {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  /* border: 1px solid red; */
+  flex-basis: 20%;
+
+  /* width: 25%; */
+}
+
+.media-links {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.media-links span {
+  /* border: 1px solid red; */
+
+  /* margin-right: 20px; */
+  /* margin-top: 20px; */
+  padding: 8px;
+  /* background-color: #fff; */
+}
+
+.fab {
+  font-size: 35px;
+  cursor: pointer;
+}
+.fa-linkedin {
+  color: #0177b5;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-instagram {
+  color: #e63652;
+}
+.fa-twitter-square {
+  color: #55acee;
+}
+
+.contact-us {
+  /* border: 1px dashed blue; */
+  margin-top: 20px;
+  box-sizing: border-box;
+  word-break: normal;
+}
+.contact-us-email {
+  box-sizing: border-box;
+  word-break: normal;
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 9px;
+  width: 100%;
+}
+.contact-us-icon {
+  font-size: 25px;
+  /* color: #fff; */
+}
+
+li {
+  list-style-type: none;
+  /* font-size: 16px; */
+  padding-left: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  /* color: #373a3c; */
+  font-weight: 400;
+  /* letter-spacing: 0.1px; */
+}
+
+.menu-head {
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    display: block;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .menu-head {
+    margin-bottom: 5px;
+  }
+  .menu {
+    margin-bottom: 25px;
+    padding-left: 10px;
+  }
+
+  .contact-us-email {
+    padding-right: 9px;
+    padding-left: 0px;
+    padding-top: 9xp;
+    padding-bottom: 9px;
+    font-size: 14px;
+  }
+  .media-links span {
+    padding-right: 8px;
+    padding-left: 0px;
+    padding-top: 8xp;
+    padding-bottom: 8px;
+  }
+}
+/* .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+} */

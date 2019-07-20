@@ -1,0 +1,14 @@
+/*Icon style*/
+.ellipse {
+  width: 26px;
+  height: 26px;
+  border: 5px solid #dc8bdc;
+  border-radius: 26px;
+}
+
+.triangle {
+  width: 17px;
+  height: 26px;
+  border: 5px solid #ae76df;
+  background-color: #ffffff;
+}

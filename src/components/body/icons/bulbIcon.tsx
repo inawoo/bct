@@ -1,0 +1,128 @@
+import * as React from "react";
+import "./bulbIcon.css";
+const BulbIconComponent = () => {
+  return (
+    <React.Fragment>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        // width="300"
+        // height="380"
+        className="svg-class"
+        viewBox="0 0 437.527 528.656"
+      >
+        <defs />
+        <g transform="translate(-309.305 -175.935)">
+          <path
+            className="a"
+            d="M651.113,369.157A159.166,159.166,0,1,0,435.068,517.814v69.217h22.118v41.3h27.429l-27.449.622a27.456,27.456,0,0,0,54.9-.622v-41.3H534.19V522.61A159.2,159.2,0,0,0,651.113,369.157Z"
+            transform="translate(32.776 48.301)"
+          />
+          <line
+            className="b"
+            x1="43.097"
+            y1="43.097"
+            transform="translate(310.012 252.852)"
+          />
+          <line
+            className="b"
+            x1="43.097"
+            y1="43.097"
+            transform="translate(351.483 211.381)"
+          />
+          <line
+            className="b"
+            x1="39.625"
+            y1="46.309"
+            transform="translate(413.828 198.392)"
+          />
+          <line
+            className="b"
+            y1="43.097"
+            x2="43.097"
+            transform="translate(703.028 256.04)"
+          />
+          <line
+            className="b"
+            y1="43.097"
+            x2="43.097"
+            transform="translate(661.557 214.57)"
+          />
+          <line
+            className="b"
+            y1="46.309"
+            x2="39.625"
+            transform="translate(602.684 201.58)"
+          />
+          <line
+            className="b"
+            y1="60.948"
+            transform="translate(518.992 176.435)"
+          />
+        </g>
+      </svg>
+    </React.Fragment>
+  );
+};
+
+export const BulbIconComponent2 = ({ width = "30", height = "38" }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={width}
+      height={height}
+      viewBox="0 0 437.527 528.656"
+    >
+      <defs />
+      <g transform="translate(-309.305 -175.935)">
+        <path
+          className="a"
+          d="M651.113,369.157A159.166,159.166,0,1,0,435.068,517.814v69.217h22.118v41.3h27.429l-27.449.622a27.456,27.456,0,0,0,54.9-.622v-41.3H534.19V522.61A159.2,159.2,0,0,0,651.113,369.157Z"
+          transform="translate(32.776 48.301)"
+        />
+        <line
+          className="b"
+          x1="43.097"
+          y1="43.097"
+          transform="translate(310.012 252.852)"
+        />
+        <line
+          className="b"
+          x1="43.097"
+          y1="43.097"
+          transform="translate(351.483 211.381)"
+        />
+        <line
+          className="b"
+          x1="39.625"
+          y1="46.309"
+          transform="translate(413.828 198.392)"
+        />
+        <line
+          className="b"
+          y1="43.097"
+          x2="43.097"
+          transform="translate(703.028 256.04)"
+        />
+        <line
+          className="b"
+          y1="43.097"
+          x2="43.097"
+          transform="translate(661.557 214.57)"
+        />
+        <line
+          className="b"
+          y1="46.309"
+          x2="39.625"
+          transform="translate(602.684 201.58)"
+        />
+        <line
+          className="b"
+          y1="60.948"
+          transform="translate(518.992 176.435)"
+        />
+      </g>
+    </svg>
+  );
+};
+
+export default BulbIconComponent;

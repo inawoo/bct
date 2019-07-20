@@ -1,0 +1,75 @@
+import * as React from "react";
+import "./header.css";
+import { Ellipse, Triangle } from "./icons/ellipse";
+import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png";
+
+const NavBarComponent: React.FC = () => {
+  return (
+    <ul className="navbar-container-theme">
+      <li id="logo">
+        <Link to="/">
+          <img src={logo} />
+        </Link>
+      </li>
+      <li>
+        <a href="#consulting">
+          <span className="icon-style">
+            <Ellipse />
+          </span>
+          <span className="icon-text active">Consulting</span>
+        </a>
+      </li>
+      <li>
+        <Link to="/projects">
+          <a>
+            <span className="icon-style">
+              <Ellipse />
+            </span>
+            <span className="icon-text">Projects</span>
+          </a>
+        </Link>
+      </li>
+      <li>
+        <Link to="/workspaces">
+          <a>
+            <span className="icon-style">
+              <Ellipse />
+            </span>
+            <span className="icon-text">Workspaces</span>
+          </a>
+        </Link>
+      </li>
+      <li>
+        <a href="#academy">
+          <span className="icon-style">
+            <Ellipse />
+          </span>
+          <span className="icon-text">Academy</span>
+        </a>
+      </li>
+      <li>
+        <Link to="/labs">
+          <a>
+            <span className="icon-style">
+              <Ellipse />
+            </span>
+            <span className="icon-text">Labs</span>
+          </a>
+        </Link>
+      </li>
+    </ul>
+  );
+};
+
+class HeaderComponent extends React.Component<any, any> {
+  render() {
+    return (
+      <header>
+        <NavBarComponent />
+      </header>
+    );
+  }
+}
+
+export default HeaderComponent;
