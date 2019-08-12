@@ -47,7 +47,7 @@ const HeaderComponent = (props: any) => {
           </a>
         </Link>
 
-        <Link to="/academy">
+        <Link to="/labs">
           <a href="#about">
             <span className="icon-style">
               <CircleIcon />

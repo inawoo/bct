@@ -6,6 +6,7 @@ import Footer from "../footer";
 const Fix: any = {
   marginBottom: "50px"
 };
+
 export default () => {
   return (
     <React.Fragment>

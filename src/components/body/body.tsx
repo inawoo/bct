@@ -57,7 +57,8 @@ const Body = () => {
       <div className="homepage-section-three">
         <div className="section-three-item-one">
           <div className="section-three-item-one-header">
-            We don't just build tech, we build experiences and outcomes
+            We don't just build tech, <br />
+            we build experiences <br /> and outcomes
           </div>
 
           <div className="section-three-item-one-content">
@@ -158,7 +159,8 @@ const Body = () => {
         <div className="section-five-item-one">{/*  */}</div>
         <div className="section-five-item-one ">
           <div className="section-five-item-one-header">
-            We evolve and digitize 'old' companies and their processes
+            We evolve and digitize <br /> 'old' companies and <br />
+            their processes
           </div>
 
           <div className="section-five-item-one-content">
@@ -179,11 +181,11 @@ const Body = () => {
       >
         <div className="section-five-item-one">
           <div className="section-five-item-one-header">
-            We let our work speak for us.
+            Our works speak for us
           </div>
 
           <div className="section-five-item-one-content">
-            See the work we've done in the past.
+            Our projects always solve problems
             {/* <div className="section-five-button">
               <button className="company-button"> I have a company</button>
             </div> */}
@@ -251,8 +253,8 @@ const Body = () => {
             </div>
 
             <div className="project-content">
-              An app for getting learning and computer vision to photographers
-              for recognize different soil samples events and shoots
+              You always need photographers for your events and shoots; bookings
+              are made easier
             </div>
           </div>
 
@@ -264,7 +266,7 @@ const Body = () => {
             </div>
 
             <div className="project-content">
-              A web platform that connects houses to those looking for them.
+              A platfrom that makes real estate and moving a piece of cake
             </div>
           </div>
         </div>
