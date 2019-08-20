@@ -3,21 +3,32 @@ import "./workspace.css";
 // import SectionFourComponent from "./sectionFourComponent";
 // import SectionTwoComponent, { SectionTwoOmega } from "./sectionTwoComponent";
 // import SectionThreeComponent from "./sectionThreeComponent";
-import { WifiIcon } from "./icons";
+import {
+  WifiIcon,
+  ChairIcon,
+  Table,
+  NewWifi,
+  LightIcon,
+  HallIcon
+} from "./icons";
 const Body = () => {
   return (
     <React.Fragment>
       <div className="workspace-container">
         <section className="workspace-sec-one">
           <div className="alpha">
-            <div className="alpha-header">
+            <div className="alpha-header-workspace">
               The cheapest spaces in the most innovative environment
             </div>
-            <div className="i-need-btn-container">
-              <button className="empty-box"> I need One </button>
+            <div className="workspace-need-space-container hide-bg-onMobile">
+              <button className="empty-bo"> I need One </button>
             </div>
           </div>
-          <div className="workspace-sec-one-omega" />
+          <div id="workspace-sec-one-omega" />
+          <div id="workspace-sec-one-omega-onMobile" />
+          <div className="workspace-need-space-container hide-onBig">
+            <button className="empty-bo"> I need One </button>
+          </div>
         </section>
 
         {/* SECTION TWO */}
@@ -25,33 +36,33 @@ const Body = () => {
           <div className="workspace-sec-two-alpha item-provided-left ">
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <ChairIcon width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Chairs</span>
+              <span id="item-provided-icon-text">Chairs</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <Table width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Tables</span>
+              <span id="item-provided-icon-text">Tables</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <NewWifi width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Wifi</span>
+              <span id="item-provided-icon-text">Wifi</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <HallIcon width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Hall</span>
+              <span id="item-provided-icon-text">Hall</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <LightIcon width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Light</span>
+              <span id="item-provided-icon-text">Light</span>
             </div>
           </div>
 
@@ -72,13 +83,8 @@ const Body = () => {
 
         {/* Button here */}
 
-        <section className="i-need-space-container">
-          {/* <div /> */}
-          <div>
-            <div className="i-need-btn-container">
-              <button className="empty-box"> I need space </button>
-            </div>
-          </div>
+        <section className="workspace-need-space-container">
+          <button className="empty-bo button-right"> I need space </button>
         </section>
 
         {/* SECTION THREE */}
@@ -99,44 +105,39 @@ const Body = () => {
           <div className="workspace-sec-two-alpha item-provided-right">
             <div className="workspace-item-provided ">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <ChairIcon width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Chairs</span>
+              <span id="item-provided-icon-text">Chairs</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <Table width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Tables</span>
+              <span id="item-provided-icon-text">Tables</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <NewWifi width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Wifi</span>
+              <span id="item-provided-icon-text">Wifi</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <HallIcon width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Hall</span>
+              <span id="item-provided-icon-text">Hall</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <LightIcon width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Light</span>
+              <span id="item-provided-icon-text">Light</span>
             </div>
           </div>
         </section>
 
-        <section className="i-need-space-container-2">
-          {/* <div /> */}
-          <div>
-            <div className="i-need-btn-container">
-              <button className="empty-box"> I need space </button>
-            </div>
-          </div>
+        <section className="workspace-need-space-container">
+          <button className="empty-bo "> I need space </button>
         </section>
 
         {/* Section Four */}
@@ -145,33 +146,33 @@ const Body = () => {
           <div className="workspace-sec-two-alpha item-provided-left">
             <div className="workspace-item-provided ">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <ChairIcon width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Chairs</span>
+              <span id="item-provided-icon-text">Chairs</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <Table width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Tables</span>
+              <span id="item-provided-icon-text">Tables</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <NewWifi width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Wifi</span>
+              <span id="item-provided-icon-text">Wifi</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <HallIcon width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Hall</span>
+              <span id="item-provided-icon-text">Hall</span>
             </div>
             <div className="workspace-item-provided">
               <span className="workspace-item-provided-icon">
-                <WifiIcon />
+                <LightIcon width={60} height={60} color="#444" />
               </span>
-              <span className="item-provided-icon-text">Light</span>
+              <span id="item-provided-icon-text">Light</span>
             </div>
           </div>
           <div className="workspace-sec-two-omega-two grey-bg">
@@ -191,14 +192,8 @@ const Body = () => {
 
         {/* Button here */}
 
-        <section className="i-need-space-container">
-          <div>
-            <div className="i-need-btn-container">
-              <button className="empty-box empty-box-black-bg">
-                I need space
-              </button>
-            </div>
-          </div>
+        <section className="workspace-need-space-container">
+          <button className="empty-bo button-right">I need space</button>
         </section>
       </div>
     </React.Fragment>

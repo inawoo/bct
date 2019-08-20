@@ -12,6 +12,25 @@
   max-width: 100%;
 }
 
+.mobile-menu {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.mobile-menu a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.mobile-menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 .topnav a {
   float: left;
   display: flex;

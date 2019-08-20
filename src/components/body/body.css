@@ -15,7 +15,7 @@
   display: flex;
   justify-content: flex-start;
   /* border: 1px solid rebeccapurple; */
-  width: 100%;
+  /* width: 100%; */
 }
 
 .homepage-container .homepage-section-one .section-one-item-one {
@@ -76,7 +76,7 @@
   margin-top: 30px;
   justify-content: flex-start;
   /* border: 1px solid rebeccapurple; */
-  width: 100%;
+  /* width: 100%; */
 }
 
 .homepage-container .homepage-section-two .section-two-item-one {
@@ -156,7 +156,7 @@
   margin-top: 80px;
   justify-content: flex-start;
   /* border: 1px solid rebeccapurple; */
-  width: 100%;
+  /* width: 100%; */
 }
 
 .homepage-container .homepage-section-three .section-three-item-one {
@@ -192,7 +192,7 @@
 .homepage-section-four .section-four-item-one {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  /* width: 100%; */
   flex-wrap: wrap;
 }
 
@@ -244,7 +244,7 @@ Section Five
   display: flex;
   justify-content: flex-start;
   /* border: 1px solid rebeccapurple; */
-  width: 100%;
+  /* width: 100%; */
   margin-top: 30px;
 }
 
@@ -289,13 +289,13 @@ Section Five
   /* justify-content: flex-start; */
   /* flex-direction: column; */
   /* border: 1px solid rebeccapurple; */
-  width: 100%;
+  /* width: 100%; */
   margin-top: 60px;
 }
 
 .project-card-container {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   flex-wrap: wrap;
   /* border: 1px solid red; */
   /* padding: 20px; */
@@ -326,7 +326,10 @@ Section Five
   max-width: 100%;
   min-width: 100%;
   border-radius: 9px;
-  background-image: url("../../assets/green-track.jpg");
+
+  background-image: url("../../assets/design.jpg");
+  background-color: #b035c9;
+  vertical-align: middle;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -638,7 +641,7 @@ Section Five
     /* max-width: 100%; */
     /* min-width: 100%; */
     border-radius: 9px;
-    background-image: url("../../assets/green-track.jpg");
+    background-image: url("../../assets/design.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
