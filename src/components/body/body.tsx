@@ -51,9 +51,7 @@ const Body = () => {
           </div>
         </div>
       </div>
-
       {/**SEction three */}
-
       <div className="homepage-section-three">
         <div className="section-three-item-one">
           <div className="section-three-item-one-header">
@@ -73,9 +71,7 @@ const Body = () => {
           </div> */}
         </div>
       </div>
-
       {/**Section Four */}
-
       <div>
         <div className="homepage-section-four">
           <div className="section-four-item-one">
@@ -149,7 +145,6 @@ const Body = () => {
           </div>
         </div>
       </div>
-
       {/* Section FIve */}
       <div
         data-aos="fade-right"
@@ -171,9 +166,7 @@ const Body = () => {
           </div>
         </div>
       </div>
-
       {/* Section Six */}
-
       <div
         data-aos="fade-left"
         data-aos-duration="600"
@@ -204,9 +197,8 @@ const Body = () => {
           </div> */}
         </div>
       </div>
-
       {/* SECTION 6 */}
-      <section className="homepage-section-six">
+      <section id="projects" className="homepage-section-six">
         {/* <div>helow</div> */}
         <div className="project-card-container">
           <div className="project-card">

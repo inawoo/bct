@@ -24,7 +24,7 @@ const HeaderComponent = (props: any) => {
           </Link>
 
           <Link to="#projects">
-            <a href="#contact">
+            <a href="#projects">
               <span className="icon-style">
                 <TriangleIcon />
               </span>
