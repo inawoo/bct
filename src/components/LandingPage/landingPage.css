@@ -29,7 +29,7 @@
   /* width: 100vw; */
 
   justify-content: space-between;
-  top: 85%;
+  top: 88%;
 }
 
 .landing-page-footer span {
@@ -82,7 +82,7 @@
     height: 40%;
     /* padding-top: 10%; */
     /* border: 1px solid red; */
-    margin-top: 10%;
+    margin-top: 20%;
   }
 
   .carousel-title {
@@ -106,7 +106,7 @@
     justify-content: flex-start;
   }
   .landing-page-footer {
-    top: 80%;
+    top: 87%;
   }
   .landing-page-footer span {
     font-size: 4vw;
