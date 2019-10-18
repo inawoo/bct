@@ -3,7 +3,7 @@ import "./landingPage.css";
 import Particles from "react-particles-js";
 import Typist from "react-typist";
 import "react-animated-slider/build/horizontal.css";
-
+import Header from "../header/header";
 const cursor = {
   hideWhenDone: true
 };
@@ -49,11 +49,20 @@ const ParticleContainer = ({ children }: any) => (
 const Landing = () => {
   return (
     <div className="landing-page">
-      <div className="carousel-title">BuildCodeTogether</div>
-      <div className="carousel-text">
-        <Typist cursor={cursor}>
-          We help Africa’s most innovative technology startups grow quickly.
-        </Typist>
+      <Header />
+      <div className="landing-container">
+        <div className="carousel-title">BuildCodeTogether</div>
+        <div className="carousel-text">
+          <Typist cursor={cursor}>
+            We help Africa’s most innovative technology startups grow quickly.
+          </Typist>
+        </div>
+      </div>
+      <div className="landing-page-footer">
+        <span>Consulting</span>
+        <span>Startups</span>
+        <span>Workspaces</span>
+        <span>Labs</span>
       </div>
     </div>
   );

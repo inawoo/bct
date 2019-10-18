@@ -10,11 +10,11 @@ const Fix: any = {
 const Homepage: React.FC = () => {
   return (
     <React.Fragment>
-      <Header />
+      {/* <Header /> */}
       <LandingPage />
-      <Body />
+      {/* <Body />
       <div style={Fix} />
-      <Footer />
+      <Footer /> */}
     </React.Fragment>
   );
 };

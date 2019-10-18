@@ -14,15 +14,15 @@ const HeaderComponent = (props: any) => {
         </Link>
 
         <div style={{ float: "right" }}>
-          <Link to="#consult">
+          {/* <Link to="#consult">
             <a href="#news" className="consulting">
               <span className="icon-style">
                 <RectangleIcon />
               </span>
               Consulting
             </a>
-          </Link>
-
+          </Link> */}
+          {/* 
           <Link to="#projects">
             <a href="#projects">
               <span className="icon-style">
@@ -30,33 +30,33 @@ const HeaderComponent = (props: any) => {
               </span>
               Projects
             </a>
-          </Link>
-          <Link to="/workspaces">
+          </Link> */}
+          {/* <Link to="/workspaces">
             <a href="#about">
               <span className="icon-style">
                 <CircleIcon />
               </span>
               Workspaces
             </a>
-          </Link>
+          </Link> */}
 
-          <Link to="/academy">
+          {/* <Link to="/academy">
             <a>
               <span className="icon-style">
                 <CircleIcon />
               </span>
               Academy
             </a>
-          </Link>
+          </Link> */}
 
-          <Link to="/labs">
+          {/* <Link to="/labs">
             <a href="#about">
               <span className="icon-style">
                 <CircleIcon />
               </span>
               Labs
             </a>
-          </Link>
+          </Link> */}
 
           <a
             href="javascript:void(0)"
